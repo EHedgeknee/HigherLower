@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+}
+#body {
+    display: flex;
+    height: 100vh;
+}
+.rightSide, 
+.leftSide {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+    z-index: 0;
+}
+
+
+
+.points {
+    font-family: 'Impact';
+    font-size: 35px;
+    color: gold;
+    margin: 6px;
+}
+.rightSide p,
+.rightSide h1,
+.leftSide p,
+.leftSide h1 {
+    margin: 6px;
+    color:aliceblue;
+
+}
+
+button {
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: transparent;
+    color:gold;
+    font-size: 22px;
+    font-family: 'roboto';
+}
+.name {
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.middle {
+    margin-top: 260px;
+    height:40px;
+    flex: 0;
+    margin-right: -37px;
+    margin-left: -37px;
+    z-index: 1;
+    text-align: center;
+}
+
+.circle {
+    flex: 0;
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    border-radius: 22px;
+}
